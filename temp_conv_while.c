@@ -3,7 +3,7 @@
 void main()
 {
   float fah,cel;
-  for(fah = 300 ; fah >= 0 ; fah--)
+  for(fah = 300 ; fah >= 0 ; fah = fah-20)
   {
   cel = 5.0/9.0 * ( fah - 32 )  ;
      printf("Temperature in Fahernite: %3.1f \t \t" , fah);
